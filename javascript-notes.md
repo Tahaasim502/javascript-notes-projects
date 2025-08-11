@@ -50,21 +50,23 @@
 
 - Common array methods:
 
- - .length — returns the number of elements (property, no parentheses):
+ - `.length` — returns the number of elements (property, no parentheses):
   ```javascript
     console.log(arr.length);
   ```
 
-- .push(element) — adds an element to the end, returns new array length:
+- `.push(element)` — adds an element to the end, returns new array length:
 ```javascript
     arr.push(4);  // returns 4, new length of the array
 ```
 
-- .pop() — removes the last element and returns it:
+- `.pop()` — removes the last element and returns it:
 ```javascript
   let last = arr.pop();  // returns 4, removes it from arr
 ```
+- `.unshift(element)` — Adds an element to the start of the array, shifting existing elements to the right.
 
+- `.shift()` — Removes and returns the first element of the array, shortening its length.
 ---
 
 ## Loops
@@ -84,3 +86,34 @@ for (const value of iterable) {
   console.log(value);
 }
 ```
+
+---
+
+## Functions
+
+Functions allow you to reuse blocks of code by calling them multiple times.
+
+```javascript
+function functionName(parameter) {
+  // function body
+}
+```
+
+Note: Any code after a return statement inside a function will not be executed.
+
+---
+
+## If Condition
+
+The if statement works similarly in JavaScript as in other programming languages.
+
+In JavaScript:
+
+Non-empty strings `(e.g. "hello")` are considered **truthy** `(evaluate to true)`.
+
+Empty strings `("")` are considered  **falsy** `(evaluate to false)`.
+
+`==` checks value **equality** (allows type coercion).
+
+`===` checks strict **equality** (value and type must be the same).
+
