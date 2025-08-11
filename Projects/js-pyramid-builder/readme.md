@@ -59,4 +59,8 @@ Perfect for practicing essential JavaScript concepts and boosting your coding co
 
 ```bash
 node "JS Pyramid Builder.js"
+```
+---
 
+## SnapShot
+<img width="277" height="183" alt="image" src="https://github.com/user-attachments/assets/da665b0e-2ba7-4a62-8b11-2902791b7cec" />
